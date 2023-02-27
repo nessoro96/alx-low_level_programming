@@ -12,9 +12,9 @@ long long int c;
 char d;
 float f;
 printf("size of a char: %lu bytes(s)\n", sizeof(d));
-printf("size of a  int: %lu bytes(s)\n", sizeof(a));
-printf("size of a  long int: %lu bytes(s)\n",  sizeof(b));
+printf("size of an int: %lu bytes(s)\n", sizeof(a));
+printf("size of a long int: %lu bytes(s)\n", sizeof(b));
 printf("size of a long long int: %lu bytes(s)\n", sizeof(c));
-printf("size of a  float: %lu bytes(s)\n", sizeof(f));
+printf("size of a float: %lu bytes(s)\n", sizeof(f));
 return (0);
 }
