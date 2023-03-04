@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints the alphabet
- * return: Alllways (success)
+ *main - Entry point
+ *description: 'print the alphabet'
+ *return: Always 0
  */
-
 int main(void)
 {
 	char c;
