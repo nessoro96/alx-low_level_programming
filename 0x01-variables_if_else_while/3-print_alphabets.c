@@ -1,17 +1,22 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * descrption: 'print small and capital leeters'
- * return: always 0
+ * Description: Alphabet game
+ * Return: 0
  */
+
 int main(void)
-{char lett;
+{
+char i;
 
-for (lett = 'a'; lett <= 'z'; lett++)
-putchar(lett);
-
-for (lett = 'A'; lett <= 'Z'; lett++)
-putchar(lett);
+for (i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
+}
+for (i = 'A'; i <= 'Z'; i++)
+{
+putchar(i);
+}
 putchar('\n');
 
 return (0);
