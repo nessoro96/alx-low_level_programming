@@ -1,19 +1,22 @@
 #include <stdio.h>
 /**
- * main -Entry
- * descption: 'print allphabet exept e and q'
- * return: Always (success)
+ * main - Entry point
+ * Description - Alphabeth Soup
+ * Return: 0
  */
-int main(void)
-{ char e, q, lett;
-e = 'e';
-q = 'q';
 
-for (lett = 'a'; lett <= 'z'; lett++)
+int main(void)
 {
-if (lett != e && lett != q)
-putchar(lett);
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
+{
+if (c != 'e' && c != 'q')
+{
+putchar(c);
+}
 }
 putchar('\n');
+
 return (0);
 }
