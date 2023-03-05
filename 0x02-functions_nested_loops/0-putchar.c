@@ -1,11 +1,20 @@
-#include <stdio.h>
-/* 
- * main -entry point
- *
- * return: Always 0 (success)
+#include "main.h"
+/**
+ * main - Entry Point
+ * Description - Print _putchar
+ * Return: 0
  */
+
 int main(void)
 {
-pritf("_putchar\n");
+char c[] = "_putchar\n";
+int i = 0;
+
+while (c[i] != '\0')
+{
+_putchar(c[i]);
+i++;
+}
+
 return (0);
 }
