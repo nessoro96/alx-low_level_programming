@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - Combination '0' to '99'
+ * Description - Combination '00' to '99'
  * Return: 0
  */
 
