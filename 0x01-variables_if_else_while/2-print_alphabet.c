@@ -1,15 +1,19 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *description: 'print the alphabet'
- *return: Always 0
+ * main -Entry point
+ * Description: The alphabet
+ * Return: 0
  */
+
 int main(void)
 {
-	char c;
+char c = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-	putchar('\n');
-	return (0);
+while (c <= 'z')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
 }
