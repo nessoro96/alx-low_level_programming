@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - Numbers, counting them right?
+ * Description - Numbers, counting
  * Return: 0
  */
 
